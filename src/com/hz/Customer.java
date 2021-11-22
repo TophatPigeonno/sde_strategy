@@ -40,7 +40,7 @@ public class Customer {
         }
 
         /**
-         * Shows the customer type in console if it has not been shown yet
+         * Shows the customer type in console if it has not been shown yet (happens only when there is NoDiscount)
         @return true if the customer is a regular
          */
         public CustomerType customerType() {

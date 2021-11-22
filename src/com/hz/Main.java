@@ -42,8 +42,11 @@ public class Main {
         // The customers proceed to checkout
             System.out.println(" ");
             System.out.println("> Customers proceed to checkout");
+
             register5.nextInLine(piet, discount);
+
             System.out.println(" ");
+
             register5.nextInLine(anne, discount);
     }
 }

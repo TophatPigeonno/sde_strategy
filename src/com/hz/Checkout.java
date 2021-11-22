@@ -1,12 +1,14 @@
 package com.hz;
 
 import discounts.Discount;
-import discounts.BlackFriday;
-import discounts.NoDiscount;
-import discounts.ChristmasEve;
 
 public class Checkout {
 
+    /**
+     * Processes a customer's payment info
+     * @param customer the customer at the register
+     * @param discount the current discount
+     */
     public void nextInLine(Customer customer, Discount discount) {
 
         // Welcome customer
