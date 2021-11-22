@@ -1,14 +1,14 @@
 package products;
 
-public class BlenderWithIntegratedRadio implements Product {
+public class Airplane implements Product {
 
     @Override
     public String getName() {
-        return "blender with radio";
+        return "airplane";
     }
 
     @Override
     public double getPrice() {
-        return 1897.99;
+        return 160000000;
     }
 }
